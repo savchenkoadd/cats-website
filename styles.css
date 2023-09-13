@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+#higher-container {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5d777de8109c315fd22faf3a/1652899582924-FPWXES6GG7EGOQSRDE16/unsplash-image-pQMM63GE7fo.jpg?format=2500w");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#lower-container {
+    background: #59504C;
+    height: 1200px;
+}
+
+.main-container {
+    height: 1100px;
+    width: 912px;
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.two-container {
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.container-settings {
+    width: 436px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container1 {
+    background: url("https://hips.hearstapps.com/hmg-prod/images/russian-blue-royalty-free-image-1658451809.jpg") no-repeat center;    
+    background-size: 220%;
+}
+
+.container1:hover {
+    background: url("https://media4.giphy.com/media/YRtLgsajXrz1FNJ6oy/giphy.gif?cid=ecf05e47si4j2p5m4xkw9rvudun0lvzl58rgqbg20ybqdil9&ep=v1_gifs_search&rid=giphy.gif&ct=g") no-repeat center;    
+    background-size: 200%;
+}
+
+.container2 {
+    background: url("https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-mediumSquareAt3X-v2.jpg") no-repeat center;    
+    background-size: 200%;
+}
+
+.container2:hover {
+    background: url("https://media0.giphy.com/media/H4DjXQXamtTiIuCcRU/giphy.gif?cid=ecf05e47si4j2p5m4xkw9rvudun0lvzl58rgqbg20ybqdil9&ep=v1_gifs_search&rid=giphy.gif&ct=g") no-repeat center;    
+    background-size:cover
+}
+
+.container3 {
+    background: url("https://hips.hearstapps.com/hmg-prod/images/neva-masquerade-royalty-free-image-1674509896.jpg?crop=0.611xw:1.00xh;0.196xw,0&resize=1200:*") no-repeat center;    
+    background-size: 200%;
+}
+
+.container3:hover {
+    background: url("https://media1.giphy.com/media/a34HjLEsKchWM/giphy.gif?cid=ecf05e47hbygq65mr4h8ymlb4n7vrt9b5ibabsbhfn8zki3c&ep=v1_gifs_search&rid=giphy.gif&ct=g") no-repeat center;    
+    background-size:cover
+}
+
+.container4 {
+    background: white;
+}
+
+#container4-text {
+    width: 331px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+h1 {
+    line-height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 31px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight:lighter;
+}
+
+#link {
+    color: black;
+    text-decoration: underline black;
+}
